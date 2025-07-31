@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2em;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.2em;
+}
