@@ -1,10 +1,15 @@
-const CACHE_NAME = "random-pwa-cache-v1";
+const CACHE_NAME = "dice6-pwa-cache-v1";
+// gci | Select-Object -ExpandProperty Name | ConvertTo-Json
 const FILES_TO_CACHE = [
-  "index.html",
-  "style.css",
   "app.js",
+  "dice6_x192.png",
+  "dice6_x512.png",
+  "dice6.ico",
+  "dice6.svg",
+  "index.html",
   "manifest.json",
-  "icon.png"
+  "service-worker.js",
+  "style.css"
 ];
 
 self.addEventListener("install", event => {
