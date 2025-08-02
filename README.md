@@ -9,6 +9,11 @@ Rolling D6 Dice as Offline-Capable Progressive Web App.
 
 ## Test and Deploy
 
+During development you can use a docker httpd to host your webpage:
+```pwsh
+docker run -dit --rm --name "dice6-httpd" -p "48000:80" -v ((Join-Path (Get-Location) "src") + ":/usr/local/apache2/htdocs/") "httpd:2.4"
+```
+
 🚧 TODO description
 
 

@@ -3,8 +3,8 @@
   "short_name": "Dice6",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "darkolivegreen",
+  "theme_color": "darkolivegreen",
   "icons": [
     {
       "src": "dice6_x192.png",
